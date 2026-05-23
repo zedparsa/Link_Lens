@@ -14,13 +14,14 @@ class HTTPClient:
                     "Accept-Language" : "en-US,en;q=0.9"
                 })
     
+    # these are for Session()
     def __enter__(self):
         return self
     
     def __exit__(self, exc_type, exc, tb):
         self.session.close()
     
-    
+    # the main function
     def fetch_html(self , url:str , timeout: int = 10 ) -> str:
                             
         try:      
@@ -39,6 +40,7 @@ class HTTPClient:
             logger.exception(f"Failed to fetch {url} : {error}")            
             raise
         
+# for test         
 if __name__ == "__main__" :
     
     logging.basicConfig(level=logging.INFO , format="%(levelname)s:%(message)s")
