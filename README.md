@@ -13,19 +13,19 @@
 
 
 <!-- ====== THE STORY ====== -->
+<!-- ====== THE STORY ====== -->
 <h2 align="center">💡 Why LinkLens?</h2>
 
 <p align="justify">
-I have a external hard drive and a habit of collecting movies, series, and games.  
-Not just hoarding — I actually watch and play them.  
+It started with a 5TB drive and a shared obsession: collecting movies, series, and games — not just hoarding, but actually watching and playing them.  
 
-For a long time, this meant manually clicking download links. Then I got smarter: copy links into a text file, feed them to IDM with scheduling.  
+At first, every download meant clicking links one by one. Then we got smarter: copy links into a text file, feed them to IDM with scheduling.  
 
-Then the nightmare came. The site I relied on changed its domain overnight. <b>Over 300 hand‑collected links became useless.</b>  
+The real pain came later. When Iran's internet restrictions forced our go‑to site to change domains overnight, <b>over 300 hand‑collected links became useless in an instant.</b>  
 
-I couldn't face doing that again. So I asked: <i>"What if a script could do this for me?"</i>  
+Nobody wanted to do that again. So we asked: <i>"What if a tool could handle this for us?"</i>  
 
-That question became LinkLens — a Python project that started as a personal fix and is growing into a serious engineering portfolio piece.
+That question became LinkLens — a Python project born from real frustration, built to automate link collection, survive domain changes, and grow into a full download manager. What started as a personal fix between two people is now evolving into a serious engineering portfolio project.
 </p>
 
 <!-- ====== WHAT THIS IS (RIGHT NOW) ====== -->
